@@ -1,0 +1,103 @@
+/* レスポンシブ */
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 1024px) {
+}
+/* レスポンシブここまで */
+
+body {
+  font-size: 20px;
+  /* background-color: black; */
+  text-align: center;
+  font-family: 'Kiwi Maru', serif;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Rubik 80s Fade', cursive;
+  background-color: sandybrown;
+}
+
+header {
+  background-color: darksalmon;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+a {
+  border-bottom: 1px solid #4f4f54;
+}
+
+a:hover {
+  background-color: antiquewhite;
+}
+
+.main_title {
+  font-size: 3em;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.nav_next {
+  margin-top: 15px;
+}
+
+fieldset {
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  background-color: beige;
+}
+
+.form_wrapper {
+  /* border: solid gray; */
+  /* width: 480px; */
+  margin: 2em;
+}
+
+.form_content {
+  margin: 15px;
+}
+
+input {
+  width: 350px;
+  margin-top: -20px;
+  height: 2em;
+  border: none;
+}
+
+textarea {
+  width: 350px;
+  border: none;
+}
+
+.form_hl {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  background: rgb(61, 63, 72);
+  color: aliceblue;
+}
+
+/* select.php */
+.index_area {
+  /* display: flex; */
+  width: 100vh;
+  margin: auto;
+}
+
+.index {
+  margin: auto;
+  background-color: beige;
+  border: #4f4f54;
+  max-width: 600px;
+}
